@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	height: 100vh;
+	padding: 20px 5px;
+	font-size: 18px;
+	margin: 0;
+	max-width: 800px;
+	margin: auto;
+	min-width: 360px;
+}
+
+header h1 {
+	text-align: center;
+}
+header form {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+header form input {
+	padding: 5px 3px;
+	font-size: 16px;
+	text-align: center;
+}
+header form select {
+	width: 300px;
+	margin: 20px 0;
+}
+header form select {
+	padding: 5px 3px;
+	font-size: 16px;
+}
+header form fieldset {
+	margin: 0;
+}
+header form #people {
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	width: 100px;
+	padding: 5px 3px;
+	font-size: 16px;
+}
+main table {
+	width: 100%;
+	margin: 20px 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+main table td {
+	padding: 10px 0;
+}
+main table .result {
+	text-align: center;
+}
+main #btn-submit {
+	display: block;
+	margin: 20px auto;
+}
+main .delete {
+	text-align: right;
+	width: 50px;
+}
+main .close {
+	width: auto;
+	padding: 5px 10px;
+}
+
+.result {
+	width: 100px;
+}
+.hidden {
+	display: none;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Dalix Sort</title>
+</head>
+<body>
+	<header>
+		<h1>Sắp xếp ngẫu nhiên</h1>
+		<form>
+			<fieldset id="people">
+				<legend>Nhân viên</legend>
+				<input type="text" name="people" id="input-people" placeholder="Nhập tên ở đây">
+				<button type="button" id="btn-people">Thêm người</button>
+			</fieldset>
+			<select id="range">
+				<option value="title">Lựa chọn cách sắp xếp</option>
+				<option value="follow-line">Theo tuyến</option>
+				<option value="follow-direction">Theo hướng</option>
+			</select>
+			<fieldset id="line" class="hidden">
+				<legend>Số tuyến</legend>
+				<input type="number" name="line" id="input-line" placeholder="Nhập số tuyến" min=1>
+			</fieldset>
+			<fieldset id="direction" class="hidden">
+				<legend>Số hướng</legend>
+				<input type="checkbox" name="all" id="all" value="all">
+				<label for="all">Tất cả các hướng</label>
+				<input type="checkbox" name="east" id="east" value="Đông">
+				<label for="east">Đông</label>
+				<input type="checkbox" name="west" id="west" value="Tây">
+				<label for="west">Tây</label>
+				<input type="checkbox" name="south" id="south" value="Nam">
+				<label for="south">Nam</label>
+				<input type="checkbox" name="north" id="north" value="Bắc">
+				<label for="north">Bắc</label>
+			</fieldset>
+		</form>
+	</header>
+	<main>
+		<table>
+		</table>
+		<button type="button" id="btn-submit">Sắp xếp</button>
+	</main>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
